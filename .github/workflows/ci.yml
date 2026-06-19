@@ -22,7 +22,7 @@ jobs:
             - name: Run Backend Tests
               run: |
                 cd server
-                npm test
+                npm jest
 
             - name: Install Frontend Dependencies
               run: |
